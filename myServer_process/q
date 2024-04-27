@@ -1,0 +1,75 @@
+CAT(1)                                             用户命令                                            CAT(1)
+
+名名称称
+       cat - 连接文件并在标准输出上输出
+
+概概述述
+       ccaatt [_选_项]... [_文_件]...
+
+描描述述
+       将文件列表中的文件连接到标准输出。
+
+       如果没有指定文件，或者指定文件为“-”，则从标准输入读取。
+
+       --AA, ----sshhooww--aallll
+              等价于 --vvEETT
+
+       --bb, ----nnuummbbeerr--nnoonnbbllaannkk
+              对非空输出行编号，同时取消 --nn 选项效果
+
+       --ee     等价于 --vvEE
+
+       --EE, ----sshhooww--eennddss
+              在每行结束显示 $
+
+       --nn, ----nnuummbbeerr
+              给所有输出行编号
+
+       --ss, ----ssqquueeeezzee--bbllaannkk
+              将所有的连续的多个空行替换为一个空行
+
+       --tt     等价于 --vvTT
+
+       --TT, ----sshhooww--ttaabbss
+              把 TAB 字符显示为 ^I
+
+       --uu     （被忽略的选项）
+
+       --vv, ----sshhooww--nnoonnpprriinnttiinngg
+              除了 LFD 和 TAB 之外的不可打印字符，用 ^ 和 M- 标记方式显示
+
+       ----hheellpp 显示此帮助信息并退出
+
+       ----vveerrssiioonn
+              显示版本信息并退出
+
+范范例例
+       cat f - g
+              先输出 f 的内容，然后输出标准输入的内容，最后输出 g 的内容。
+
+       cat    复制标准输入到标准输出。
+
+作作者者
+       由 Torbjorn Granlund 和 Richard M. Stallman 编写。
+
+报报告告错错误误
+       GNU coreutils 的在线帮助： <https://www.gnu.org/software/coreutils/>
+       请向 <https://translationproject.org/team/zh_CN.html> 报告翻译错误。
+
+版版权权
+       Copyright  ©  2020  Free  Software  Foundation,  Inc.   License  GPLv3+:  GNU  GPL  version 3 or later
+       <https://gnu.org/licenses/gpl.html>.
+       This is free software: you are free to change and redistribute it.   There  is  NO  WARRANTY,  to  the
+       extent permitted by law.
+
+参参见见
+       ttaacc(1)
+
+       完整文档请见： <https://www.gnu.org/software/coreutils/cat>
+       或者在本地使用： info '(coreutils) cat invocation'
+
+跋跋
+       本页面中文版由中文 man 手册页计划提供。
+       中文 man 手册页计划：hhttttppss::////ggiitthhuubb..ccoomm//mmaann--ppaaggeess--zzhh//mmaannppaaggeess--zzhh
+
+GNU coreutils 8.32                                2020年三月                                           CAT(1)
